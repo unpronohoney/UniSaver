@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mor"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mor"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/anaSayfaDon3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/green_circle_button"
+                android:contentDescription="@string/ana_menu_exp"
+                android:src="@drawable/baseline_home_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/krem"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:breakStrategy="simple"
+                            android:fontFamily="@font/acme"
+                            android:gravity="center"
+                            android:text="@string/act_3_head2"
+                            android:textColor="#673AB7"
+                            android:textSize="35sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="20dp"/>
+
+                        <TextView
+                            android:id="@+id/act_3_text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:breakStrategy="simple"
+                            android:fontFamily="@font/basic"
+                            android:labelFor="@+id/gbKonu"
+                            android:text="@string/gbKonnu"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/gbKonu"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:autofillHints=""
+                            android:background="@drawable/border_white"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:breakStrategy="simple"
+                            android:fontFamily="casual"
+                            android:text="@string/act_3_head3"
+                            android:textColor="@color/mor"
+                            android:textSize="13sp"
+                            android:textStyle="bold|italic"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/gbTrans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/mor"
+                                android:fontFamily="@font/basic"
+                                android:text="@string/findTrans"
+                                android:textColor="@color/white"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/dosyaAdi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:textColor="@color/mor"
+                                android:textSize="12sp"
+                                android:textStyle="bold|italic"
+                                android:layout_marginStart="15dp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/act_3_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="@string/gbAccik"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:layout_marginTop="20dp"/>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp">
+
+                            <EditText
+                                android:id="@+id/gbAciklama"
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:autofillHints=""
+                                android:background="@drawable/border_white"
+                                android:gravity="top|start"
+                                android:inputType="textMultiLine"
+                                android:minHeight="200dp"
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+                        </ScrollView>
+
+                        <Button
+                            android:id="@+id/gbGonder"
+                            android:backgroundTint="@color/mor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:fontFamily="@font/basic"
+                            android:text="@string/send"
+                            android:textColor="@color/white"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="30dp"/>
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </ScrollView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-7577324739927592/6601528758" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UniSaver</string>
+    <string name="main_btns1">Manuel Agno Hesabı</string>
+    <string name="main_btns2">Kombinasyonlu Agno Hesabı</string>
+    <string name="main_btns3">Transkript ile Agno Hesabı</string>
+    <string name="main_welcome">Hoşgeldiniz</string>
+    <string name="main_head1">Lütfen işlem seçiniz:</string>
+    <string name="main_head2">Gizlilik Politikası</string>
+    <string name="main_head3">Geri Bildirim Silme Talebi</string>
+
+    <string name="ok">Bitir</string>
+
+
+    <string name="wish_luck">- - - Kolay Gelsin - - -</string>
+    <string name="giveAdvise">UniSaver Bilgilendirme</string>
+    <string name="aimOfProject">\t\tUniSaver uygulaması; üniversite puanları hesaplamanıza hızlı ve anlaşılır bir yol olabilmek için tasarlanmıştır.\n
+    \t\tBu uygulamada yapabileceğiniz işlemler ve açıklamaları:\n</string>
+    <string name="info_head1">1 - Manuel agno Hesabı:</string>
+    <string name="info_head2">2 - Kombinasyonlu agno Hesabı:</string>
+    <string name="info_head3">3 - Transkript belgesi ile agno hesabı:</string>
+    <string name="info_head4">4 - Harf notu özelleştirmesi:</string>
+
+    <string name="head1_exp">\t\tAgno ve kredi (önceki harf notu olmayan dersleri katmadan) bilgilerini girdikten sonra tabloya ders ekleyerek hesaplama işlemleri yapabilirsiniz.\n</string>
+    <string name="head2_exp">\t\tYine agno ve kredi bilgilerinizi girdikten sonra hesaplanmasını istediğiniz dersleri girip \"bitti\" butonuna tıklayın. Hesaplama kısıtlarını ayarlayıp hesaplanan kombinasyonları görüntüleyebilirsiniz.\n</string>
+    <string name="head3_exp">\t\tE-Devlet\'ten aldığınız (.pdf uzantılı) transkript belgeniz ile istediğiniz işlemleri rahatça yapabilirsiniz. Uygulama, dersleriniz ile bir tablo oluşturur. Siz bu tabloya yeni ders girişi, var olan dersi silme ve var olan dersin notunu değiştirme işlemlerini uygulayabilirsiniz.\n</string>
+    <string name="head4_exp">\t\t1 ile 2 numaralı işlemlerde kullanabileceğin harf notları dizisi \"Application System\" adında saklanmaktadır. Ayrıca farklı notlar için ana sayfadan menü kısmından harf notlarını özelleştirebileceğiniz kısma gidebilirsiniz.\n\t\tAyrıca belgelerdeki kişisel bilgileriniz ile ilgili herhangi bir işlem yapılmayacağını taahhüt ediyoruz.\n</string>
+
+    <string name="ana_menu_exp">Ana Menüye Dönme Simgesi</string>
+    <string name="back_exp">Geri Dön Simgesi</string>
+
+    <string name="act_2_head3">Ders notlarına limit koyabilirsiniz.</string>
+    <string name="act_2_head4">Kombinasyon Seçiniz</string>
+
+    <string name="act_3_head2">Hatalar ve Düşüncelerinizi Bize Bildirin</string>
+    <string name="act_3_head3">Eğer hatanızı transkript ile hesaplamada yaşadıysanız, lütfen transkriptinizi de veriniz. Görmeden hatayı çözemeyiz…</string>
+
+
+    <string name="edevlet_info"><html>Lütfen E-Devlet\'ten çıkardığınız transkript belgenizi kullanın. Aksi halde hata oluşacaktır.</html></string>
+    <string name="trans_btn">Transkripti Seç</string>
+    <string name="currentAgno">Mevcut AGNO(GNO) notu:</string>
+    <string name="pointHint">3.14 gibi</string>
+    <string name="totalCred2">AGNO\'ya katılmış derslerin kredi toplamları (yeni dönem hariç) :</string>
+    <string name="hint999">max. 999</string>
+    <string name="butPassAdding">Ders Girişine Geç</string>
+
+    <string name="butAddLec">Dersi Ekle</string>
+
+    <string name="agnoShow">Hesaplanan AGNO notunuz burada gözükecektir.</string>
+    <string name="refresh">Yenile</string>
+    <string name="optionalHint">opsiyonel</string>
+    <string name="posHint">min. 1</string>
+
+    <string name="butPos">Kombinasyonu Görüntüle</string>
+    <string name="posExp">Hesaplanmasını istediğiniz kombinasyon sayısı :</string>
+
+    <string name="gbKonnu">Geri Bildirinizin Konusu:</string>
+    <string name="findTrans">Transkripti Bul"</string>
+    <string name="gbAccik">Geri Bildirinizin Açıklaması:</string>
+    <string name="send">Gönder</string>
+    <string name="basaAl">Başa Al</string>
+    <string name="silmeyiGeriAl">Silmeyi Geri Al</string>
+    <string name="agnofirst">AGNO(GNO): </string>
+    <string name="credfirst">Toplam kredi: </string>
+    <string name="uniNotes">Üniversitenizin Notlandırma Sistemi</string>
+    <string name="sending">Gönderiliyor…</string>
+
+    <string name="ders_girisi">Ders girişi. (Değiştirilecek dersleri giriniz.)</string>
+    <string name="lecCred">Dersin kredisi</string>
+    <string name="kisitlar">Hesaplama Kısıtları</string>
+    <string name="minAgno">Ulaşmak istediğiniz agno :</string>
+    <string name="maxAgno">İstediğiniz maksimum agno :</string>
+    <string name="minLet">Minimum harf notu :</string>
+    <string name="maxLet">Maksimum harf notu :</string>
+    <string name="derssayar">%d ders girdiniz.</string>
+    <string name="dersAdi">Dersin adı (opsiyonel)</string>
+    <string name="ksh">Kendimi Şanslı Hissediyorum</string>
+    <string name="spinPoss">%d. kombinasyon - AGNO: %s</string>
+    <string name="posShow">Kombinasyon bilgileri burada gözükecektir.</string>
+
+    <string name="lecPastLetter">Dersin önceki harf notu :</string>
+    <string name="lecNewLetter">Dersin yeni harf notu :</string>
+    <string name="manuel_5">Dersin adı</string>
+
+    <string name="dersBekle">Önce \"Ders Girişine Geç\" butonuna bas.</string>
+
+    <string name="playPuanla">Bizi Değerlendirin</string>
+    <string name="degermi">\t\tUniSaver hakkındaki fikirleriniz bizim için çok değerlidir. İyi ya da kötü değerlendirmelerinizi lütfen paylaşın.</string>
+    <string name="degerlendirButton">Değerlendir</string>
+    <string name="ozelHarfler">Ders Notu Ayarları</string>
+
+    <string name="notDiziAct1">Not Dizisi Oluştur</string>
+
+    <string name="notEkleBilgi">Not Ekle</string>
+    <string name="notHint">Ders Notu İsmi</string>
+    <string name="puanHint">Notun Etki Puanı</string>
+    <string name="notEkleButton">Notu Diziye Ekle</string>
+    <string name="notDizisiInfo">Diziyi tamamladığınızda aşağıdaki \"Bitir\" butonuna basın.</string>
+
+    <string name="harfNotlariAct1">Ders Notu Dizileri Tablosu</string>
+    <string name="notDiziIsmi">Not Dizisinin İsmi</string>
+    <string name="next">Devam\t</string>
+
+
+
+    <string name="yok">Yok</string>
+
+    <string name="ders_tostring">İsmi %1$s olan ders %2$s iken yeni harf notu %3$s alındı.\n</string>
+    <string name="ders_tostring_unname">Kredisi %1$d ve notu %2$s olan ders için yeni harf notu %3$s alındı.\n</string>
+    <string name="ders_tostring_kom">Ders ismi: %s\n</string>
+    <string name="ders_tostring_kom_unname">Ders kredisi: %1$d ve ilk notu: %2$s\n</string>
+
+
+    <string name="ihtimal_tostring">%1$sYeni not: %2$s.\nBu durumun agnoya etkisi: %3$.2f.\n\n</string>
+
+    <string name="agnon_en_yuksek_olasilik">Agnonun en yüksek olduğu kombinasyon:\n</string>
+    <string name="agnon_en_dusuk_olasilik">Agnonun en düşük olduğu kombinasyon:\n</string>
+    <string name="numarali_olasilik">%1$d numaralı kombinasyon için:\n</string>
+    <string name="son_agno_bulundu">\nSon kredi: %d\nSon agno: %.2f</string>
+    <string name="sapma_bir_tarafta">±%1$.2f.\n</string>
+    <string name="sapma_iki_tarafta">+%1$.2f ve -%2$.2f.\n</string>
+    <string name="sapma_sadece_minus">-%1$.2f.\n</string>
+    <string name="sapma_sadece_plus">+%1$.2f.\n</string>
+
+    <string name="ilk_bilgi">İlk bilgiler;\n</string>
+    <string name="agno_cred">AGNO(GNO): %f\nKredi: %d\n</string>
+    <string name="choose_app">Paylaşmak için uygulama seç</string>
+    <string name="agno_cred_info">\tİlk dönem AGNO(GNO): %.2f Kredi: %d\t</string>
+    <string name="enter_ders_error">Önceki harf notu olan derslerin kredisi toplam krediden fazla olamaz.</string>
+    <string name="tekrarDers">Dilerseniz tekrar ders girişi yapabilirsiniz.</string>
+    <string name="koms_info">Kombinasyonlar başarıyla oluşturuldu.</string>
+    <string name="koms_err">Kombinasyon dizisi oluşturulamadı.</string>
+    <string name="koms_num">%d kombinasyon oluşturuldu.</string>
+    <string name="dersEkleyebilirsin">Artık ders ekleyebilirsin.</string>
+
+    <string name="unlimited">Limitsiz</string>
+
+    <string name="ders_gir_info">Ders girebilirsiniz.</string>
+
+    <string name="bos_dizi">Boş harf dizisi!</string>
+
+    <string name="sonuc">Sonuç;\n</string>
+    <string name="ders_eklendi">Ders eklendi.</string>
+
+    <string name="sys_err">Aynı isimde iki sistem olamaz.</string>
+    <string name="sys_empty_name">İsim boş olamaz.</string>
+
+    <string name="bos_alan">Lütfen alanları boş bırakmayın.</string>
+    <string name="gpa_err">Agno, harf dizisi sınırlarına uymalıdır.</string>
+    <string name="ders_err">Lütfen krediyi girin ve 0\'dan küçük olamaz.</string>
+    <string name="any_ders">Hiç ders girmediniz.</string>
+    <string name="cred_err">Kredi 0\'dan küçük olamaz.</string>
+    <string name="same_grade">Aynı isimli not olamaz!</string>
+
+    <string name="gpa">AGNO(GNO): %.2f\t</string>
+    <string name="tot_cred">Toplam kredi: %d\t</string>
+    <string name="cok_yuksek">Çok yüksek değerler girmeyin lütfen!</string>
+    <string name="invalid">Geçersiz harf notu!</string>
+    <string name="inv_cred">Geçersiz kredi!</string>
+    <string name="agno_info">AGNO(GNO): %.2f%s%.2f\nKredi: %d</string>
+
+    <string name="trans_agno_unmatch">Transkriptte yazan AGNO: %.2f\nTranskripteki dersler ile hesaplanan AGNO: %.2f\nDeğişiklikler %.2f üzerinden hesaplanacaktır.\n</string>
+    <string name="trans_cred_unmatch">Transkriptte yazan kredi: %d\nTranskriptteki dersler ile hesaplanan kredi: %d\nDeğişiklikler %d üzerinden hesaplanacaktır.\n</string>
+    <string name="and">\n---VE---\n</string>
+
+    <string name="uni_grades">Tabloya ders eklerken not seçmenize yardımcı olmak için üniversitenizde kullanılan harf notları ve karşılıkları:\n\n</string>
+    <string name="uni_grades_head">Notlar ve Karşılıkları</string>
+
+    <string name="unmatch">Eşitsizlik Bilgilendirme</string>
+    <string name="trans_err">Bir hata meydana geldi. Lütfen geri bildirin.</string>
+
+    <string name="tmm">Tamam</string>
+
+    <string name="ilk_bildo">SEEELLLLAMMM ! ! !</string>
+    <string name="ilk_bildo_text">UniSaver\'ı kullandığın için teşekkür ederiz. Mükemmelsin!</string>
+
+    <string name="belge_info">Belgeniz okundu.</string>
+    <string name="belge_error">Belgeniz okunamadı…</string>
+    <string name="feedback_info">Geri bildiriminiz başarıyla tarafımıza gönderildi.</string>
+    <string name="feedback_error">Geri bildiriminiz gönderilemedi…</string>
+
+
+    <string name="pool1_1">Finalleri son güne bıraktıysan, içini rahatlatmak için buradayım. 😊</string>
+    <string name="pool1_2">Bazı dersler de büte bırakılmalı dimi?¿ 🤠</string>
+    <string name="pool1_3">Kafadan planlamak zor gibi 🙄. Yine de ben buradayım!</string>
+
+    <string name="pool2_1">Ders seçimine de yardımcı olabileceğimi unutma. 😊</string>
+    <string name="pool2_2">Güz\'ü Bahar\'da toplarızzzzz. 😉</string>
+    <string name="pool2_3">Bir sene değil de yarım dönem uzatmana yardımcı olmak için buradayım. 😒</string>
+
+    <string name="pool3_1">Çok ders var hangisine odaklanacaksın? Gel beraber öğrenelim.</string>
+    <string name="pool3_2">Bazen vizeler de sallanabilir. 🤠</string>
+    <string name="pool3_3">Vizelerden planlarsan final haftasında yatarsın. 😉</string>
+
+    <string name="pool4_1">Final haftasında herkes telaş yaparken sen UniSaver kullan!</string>
+    <string name="pool4_2">Finaller bitsin süper bi tatil yaparız. Ama önce planlayalım. 😊</string>
+    <string name="pool4_3">ÇOK MU ZOR YA! UniSaver\'ı aç içini rahatlat.</string>
+
+    <string name="pool5_1">Yeni seneyi UniSaver\'da düşün, kafan rahat olsun.</string>
+    <string name="pool5_2">Tatil modundan çıkma vakti birazcık. 😒</string>
+    <string name="pool5_3">Ders seçiminde de UniSaver!!!</string>
+
+    <string name="pool6_1">Hangi dersi bırakacaksın, gel birlikte seçelim. 😒</string>
+    <string name="pool6_2">Ne ara vizeler geldi ya, canın sıkıldıysa ben buradayım. ✋</string>
+    <string name="pool6_3">Diferansiyel Denklemler\'de Boğaziçili, vizelerde hangisine odaklanacağında UniSaver.</string>
+
+    <string name="head1">BÜT MÜ¿ FİNAL Mİ? 🤨🤨🤨</string>
+    <string name="head2">Bahar\'a Birlikte Ders Seçelim 🙃</string>
+    <string name="head3">Fiyuu. Vizeler geliyor!</string>
+    <string name="head4">FİNALSSSS</string>
+    <string name="head5">Yeni Seneye Hazır Mıyızzz??</string>
+    <string name="head6">Vizeler Yakın…</string>
+
+    <string name="menu1">Harf Notlarını Özelleştir</string>
+    <string name="menu2">Dil - Türkçe</string>
+    <string name="menu3">Bize Ulaşın</string>
+
+    <string name="min_cant_max">Min harf, max harften büyük olamaz.</string>
+    <string name="first_basis">Önce temel bilgilerinizi girin.</string>
+    <string name="term_info_err">Dönem bilgilerinizi girmediniz!</string>
+    <string name="min_agno_max">Min agno, max agnodan büyük olamaz.</string>
+
+    <string name="manuel_2">Ders Tablosu</string>
+
+
+</resources>

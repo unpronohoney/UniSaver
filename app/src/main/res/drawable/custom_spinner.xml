@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Arka plan rengi -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="3dp"
+                android:color="@color/softmor" />
+
+            <!-- Arka Plan Rengi -->
+            <solid android:color="@color/gri" />
+
+            <corners android:radius="30dp" />
+
+            <!-- İç Boşluk (Padding gibi çalışır) -->
+            <padding
+                android:left="12dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+
+    <!-- Sağdaki aşağı ok simgesi -->
+    <item android:gravity="end|center_vertical" android:right="5dp">
+        <bitmap
+            android:src="@android:drawable/arrow_down_float"
+            android:tint="@color/softmor"
+            android:gravity="center"/>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="TransAct" parent="Theme.Unisaver">
+        <item name="buttonStyle">@style/arrangeButton</item>
+    </style>
+
+    <style name="arrangeButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+</resources>

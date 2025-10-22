@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="mor">#673AB7</color>
+    <color name="yesil">#4CAF50</color>
+    <color name="softmor">#7961BA</color>
+    <color name="krem">#33FFED00</color>
+    <color name="ekru">#FFFCD7</color>
+    <color name="gri">#38000000</color>
+    <color name="koyuGri">#66000000</color>
+    <color name="spinnerfont">#80000000</color>
+</resources>

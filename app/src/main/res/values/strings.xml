@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">UniSaver</string>
+    <string name="main_btns1">Manual GPA Calculator</string>
+    <string name="main_btns2">GPA Calculator with Combinations</string>
+    <string name="main_btns3">GPA Calculator with Transcript</string>
+    <string name="main_welcome">Welcome</string>
+    <string name="main_head1">Choose an option:</string>
+    <string name="main_head2">Privacy Policy</string>
+    <string name="main_head3">Feedback Deletion Request</string>
+
+    <string name="ana_menu_exp">Return to Home Page</string>
+    <string name="back_exp">Go Back</string>
+    <string name="refresh">Refresh</string>
+    <string name="pointHint">like 3.14</string>
+    <string name="hint999">max 999</string>
+
+    <string name="butPassAdding">Go to Course Entry</string>
+    <string name="dersBekle">First, click \"Go to Course Entry\".</string>
+    <string name="lecCred">Course credit</string>
+    <string name="lecPastLetter">Previous letter grade of the course:</string>
+    <string name="butAddLec">Add Course</string>
+
+    <string name="currentAgno">Current GPA grade:</string>
+    <string name="totalCred2">Total credits of courses included in the GPA (except new term):</string>
+    <string name="ders_girisi">Course entry. (Enter the courses to be changed.)</string>
+    <string name="manuel_5">Course name</string>
+    <string name="lecNewLetter">New letter grade for the course:</string>
+    <string name="manuel_2">Course Table</string>
+    <string name="agnoShow">Your calculated GPA grade will appear here.</string>
+
+    <string name="dersAdi">Course name (optional)</string>
+    <string name="kisitlar">Calculation Constraints</string>
+    <string name="minAgno">The GPA you want to reach:</string>
+    <string name="maxAgno">Maximum GPA desired:</string>
+    <string name="minLet">Minimum letter grade:</string>
+    <string name="maxLet">Maximum letter grade:</string>
+    <string name="act_2_head3">You can set limits on course notes.</string>
+    <string name="butPos">View Combination</string>
+    <string name="posExp">Number of combinations you want to calculate:</string>
+    <string name="posHint">min 1</string>
+    <string name="ksh">I Feel Lucky</string>
+    <string name="act_2_head4">Choose Combination</string>
+    <string name="posShow">Combination information will appear here.</string>
+    <string name="optionalHint">optional</string>
+
+    <string name="edevlet_info"><html>Please use the transcript document you obtained from E-Devlet. Otherwise, an error will occur.</html></string>
+    <string name="trans_btn">Choose Transcript</string>
+    <string name="playPuanla">Rate Us</string>
+    <string name="degermi">\t\tYour opinions about UniSaver are very valuable to us. Please share your reviews, good or bad.</string>
+    <string name="degerlendirButton">Rate</string>
+    <string name="basaAl">Reset</string>
+    <string name="silmeyiGeriAl">Undo Deletion</string>
+    <string name="agnofirst">GPA: </string>
+    <string name="credfirst">Total credits: </string>
+    <string name="uniNotes">Your University\'s Grading System</string>
+
+    <string name="notDiziIsmi">Note Array Name</string>
+    <string name="next">\tContinue\t</string>
+
+    <string name="act_3_head2">Report Errors and Your Thoughts to Us</string>
+    <string name="act_3_head3">If you have experienced an error while calculating with your transcript, please provide your transcript as well. We cannot fix the error without seeing it…</string>
+    <string name="gbKonnu">Subject of Your Feedback:</string>
+    <string name="findTrans">Find the Transcript</string>
+    <string name="gbAccik">Explanation of your feedback:</string>
+    <string name="send">Send</string>
+
+    <string name="ozelHarfler">Letter Grade Settings</string>
+    <string name="harfNotlariAct1">Letter Grade Arrays Table</string>
+    <string name="ok">Done</string>
+    <string name="notDiziAct1">Create Letter Grade Array</string>
+    <string name="notEkleBilgi">Add Grade</string>
+    <string name="notHint">Grade Nick</string>
+    <string name="puanHint">Score of the Grade</string>
+    <string name="notEkleButton">Add Grade to Array</string>
+    <string name="notDizisiInfo">When you have completed the array, press the \"Done\" button below.</string>
+
+
+
+
+
+
+    <string name="derssayar">You have entered %d courses.</string>
+
+
+
+    <string name="wish_luck">- - - Good Luck - - -</string>
+    <string name="giveAdvise">UniSaver Information</string>
+    <string name="aimOfProject">\t\tUniSaver application is designed to be a quick and easy way to calculate your GPA.\n
+    \t\tThe operations you can perform in this application and their explanations:\n</string>
+    <string name="info_head1">1 - Manual GPA Calculator:</string>
+    <string name="info_head2">2 - GPA Calculator with Combinations:</string>
+    <string name="info_head3">3 - GPA Calculator with Transcript:</string>
+    <string name="info_head4">4 - Letter grade customization:</string>
+
+    <string name="head1_exp">\t\tAfter entering the GPA and credit information (except new term info) you can add courses to the table and perform calculations.\n</string>
+    <string name="head2_exp">\t\tIn the same way, after entering your GPA and credit information, enter the courses you want to calculate and click \"Done\". You can set the calculation restrictions and view the calculated combinations.\n</string>
+    <string name="head3_exp">\t\tYou can easily perform any operations you want with your transcript document (.pdf) that you received from E-Devlet. The application creates a table with your courses. You can apply the operations of adding course, deleting course and changing the grade of an existing course on the table.\n</string>
+    <string name="head4_exp">\t\tThe letter grade array that you can use in operations numbered 1 to 2 is stored in the name of \"Application System\". You can also go to the section where you can customize letter grades from the menu section on the home page for different grades.\n\t\tWe also undertake that no action will be taken regarding your personal information in the documents.\n</string>
+
+
+
+
+    <string name="yok">None</string>
+
+    <string name="ders_tostring">The course named %1$s had grade %2$s, now has new grade %3$s.\n</string>
+    <string name="ders_tostring_unname">The course with %1$d credits and grade of %2$s has new letter grade of %3$s.</string>
+    <string name="ders_tostring_kom">Course name: %s\n</string>
+    <string name="ders_tostring_kom_unname">Course credit: %1$d and first grade: %2$s\n</string>
+
+
+    <string name="ihtimal_tostring">%1$sNew grade: %2$s. Its effect on GPA: %3$.2f.\n\n</string>
+
+    <string name="agnon_en_yuksek_olasilik">The highest GPA combination:\n</string>
+    <string name="agnon_en_dusuk_olasilik">The lowest GPA combination:\n</string>
+    <string name="numarali_olasilik">For combination %1$d:\n</string>
+    <string name="son_agno_bulundu">\nFinal credit: %d\nThe final GPA: %.2f</string>
+    <string name="sapma_bir_tarafta">±%1$.2f.\n</string>
+    <string name="sapma_iki_tarafta">+%1$.2f and -%2$.2f.\n</string>
+    <string name="sapma_sadece_minus">-%1$.2f.\n</string>
+    <string name="sapma_sadece_plus">+%1$.2f.\n</string>
+
+    <string name="ilk_bilgi">First information;\n</string>
+    <string name="agno_cred">GPA: %.2f\nCredits: %d</string>
+    <string name="choose_app">Choose application to share</string>
+    <string name="agno_cred_info">\tFirst term GPA: %.2f Credits: %d\t</string>
+    <string name="enter_ders_error">The credits of the courses those have previous letter grades cannot exceed the total credits.</string>
+    <string name="tekrarDers">If you wish, you can enter the course again.</string>
+    <string name="koms_info">The combinations were created successfully.</string>
+    <string name="koms_err">The combinations could not be created.</string>
+    <string name="koms_num">%d combinations were created.</string>
+    <string name="dersEkleyebilirsin">You may enter courses.</string>
+
+    <string name="spinPoss">%d. combination - GPA: %s</string>
+
+    <string name="unlimited">Unlimited</string>
+
+    <string name="bos_dizi">Empty letter grade array!</string>
+
+    <string name="sonuc">Result;\n</string>
+    <string name="ders_eklendi">Course added.</string>
+
+    <string name="sys_err">There cannot be two systems with the same name.</string>
+    <string name="sys_empty_name">Name cannot be empty.</string>
+
+    <string name="bos_alan">Please do not leave any fields blank.</string>
+
+    <string name="gpa_err">GPA, must fit to letter array bounds.</string>
+    <string name="ders_err">Please enter the credit and it cannot be less than 0.</string>
+    <string name="any_ders">You\'ve never entered class.</string>
+    <string name="cred_err">Credit cannot be less than 0.</string>
+    <string name="same_grade">There cannot be a grade with the same name!</string>
+
+    <string name="gpa">GPA: %.2f\t</string>
+    <string name="tot_cred">Total credits: %d\t</string>
+    <string name="cok_yuksek">Please do not enter very high values!</string>
+    <string name="invalid">Invalid letter grade!</string>
+    <string name="inv_cred">Invalid credit!</string>
+    <string name="agno_info">GPA: %.2f%s%.2f\nCredits: %d</string>
+
+    <string name="tmm">Okay</string>
+
+    <string name="trans_agno_unmatch">GPA written on transcript: %.2f\nGPA calculated with courses on transcript: %.2f\nChanges will calculate on %.2f.\n</string>
+    <string name="trans_cred_unmatch">Credits written on transcript: %d\nCredits calculated with courses on transcript: %d\nChanges will calculate on %d.\n</string>
+    <string name="and">\n---AND---\n</string>
+
+    <string name="unmatch">Unmatch Information</string>
+    <string name="trans_err">An error occurred. Please feedback to us.</string>
+    
+    <string name="uni_grades">To help you choose a grade when adding a course to the table, here are the letter grades and their equivalents used at your university:\n\n</string>
+    <string name="uni_grades_head">Grades and Equivalents</string>
+
+
+    <string name="belge_info">Your document has been read.</string>
+    <string name="belge_error">Your document could not be read…</string>
+    <string name="feedback_info">Your feedback has been sent to us successfully.</string>
+    <string name="feedback_error">Your feedback has not been sent…</string>
+
+    <string name="ders_gir_info">You may enter courses.</string>
+
+
+    <string name="ilk_bildo">HEEEYYYYOOOO ! ! !</string>
+    <string name="ilk_bildo_text">Thank you for using UniSaver. You are fascinating!</string>
+
+    <string name="pool1_1">If you\'ve left final exams to the last day, I\'m here to ease your mind. 😊</string>
+    <string name="pool1_2">Some classes *deserve* to be left for the make-up exam, right? 😈</string>
+    <string name="pool1_3">It’s kinda hard to plan from scratch 🙄. I\'m still here for you!</string>
+
+    <string name="pool2_1">Don\'t forget, I can help with course selection too! 😊</string>
+    <string name="pool2_2">We\'ll catch up with the Fall term in Spring. 😉</string>
+    <string name="pool2_3">I\'m here to help you graduate only half a term late—not a full year! 😒</string>
+
+    <string name="pool3_1">Too many courses, which one should you focus on? Let’s figure it out together. 🧐</string>
+    <string name="pool3_2">Sometimes, skipping midterms is okay 😈</string>
+    <string name="pool3_3">Plan during midterms, chill during finals 😎</string>
+
+    <string name="pool4_1">While everyone is stressing during finals week, you use UniSaver!</string>
+    <string name="pool4_2">Let\'s plan first—then we’ll have an amazing vacation! 🤤</string>
+    <string name="pool4_3">TOO MUCH STRESS? Open UniSaver and take a deep breath. 🤗</string>
+
+    <string name="pool5_1">Think ahead with UniSaver and enjoy peace of mind in the new year. 🥳</string>
+    <string name="pool5_2">Time to shake off the vacation mode—just a little. 😩</string>
+    <string name="pool5_3">UniSaver is here for your course selections too!!! 🙄</string>
+
+    <string name="pool6_1">Which course are you planning to drop? Let’s decide together. 🥶</string>
+    <string name="pool6_2">Midterms already? Feeling overwhelmed? I’m here ✋</string>
+    <string name="pool6_3">If Differential Equations were a Netflix villain, even top students would skip the season. Let UniSaver help you survive the plot. 😇</string>
+
+    <string name="head1">Make-Up or Final? 🤨🤨🤨</string>
+    <string name="head2">Let\'s Choose Spring Courses Together 🙃</string>
+    <string name="head3">Whoa! Midterms Incoming!</string>
+    <string name="head4">FIIINAAALS!</string>
+    <string name="head5">Ready for the New Year??</string>
+    <string name="head6">Midterms Are Close…</string>
+
+
+    <string name="menu1">Customize Letter Grades</string>
+    <string name="menu2">Language - English</string>
+    <string name="menu3">Contact Us</string>
+
+    <string name="sending">Sending…</string>
+
+    <string name="min_cant_max">Min letter must be lower than max letter.</string>
+    <string name="first_basis">Firstly enter main information.</string>
+    <string name="term_info_err">You did not enter the term information!</string>
+    <string name="min_agno_max">Min GPA must be lower than max GPA.</string>
+
+</resources>
