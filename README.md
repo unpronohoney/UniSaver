@@ -1,4 +1,4 @@
-<p align="center"> <a href="#-english">🇬🇧 English</a> </p>
+<p align="center"> <a href="#-türkçe">🇹🇷 Türkçe</a> | <a href="#-english">🇬🇧 English</a> </p>
 
 <h1 align="center">🎓 Unisaver</h1>
 
@@ -65,8 +65,6 @@ Built with Material Design principles for a clean, responsive, and user-friendly
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/Unisaver.git
-
-<p align="center"> <a href="#-türkçe">🇹🇷 Türkçe</a> </p>
 
 <h1 align="center">🎓 Unisaver</h1>
 
