@@ -12,9 +12,18 @@ android {
         applicationId "com.unisaver.unisaver"
         minSdkVersion 26
         targetSdk 36
-        versionCode 9
-        versionName "1.8"
+        versionCode 11
+        versionName "1.9.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // This block is different from the one you use to link Gradle
+        // to your CMake or ndk-build script.
+        externalNativeBuild {
+            // For ndk-build, instead use the ndkBuild block.
+            cmake {
+                // Passes optional arguments to CMake.
+                arguments "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
+            }
+        }
     }
 
     buildTypes {
@@ -28,7 +37,7 @@ android {
         exclude 'META-INF/LICENSE.md'
         exclude 'META-INF/NOTICE.md'  // Çakışan dosyayı dışarıda bırakıyoruz
         jniLibs {
-            useLegacyPackaging = false
+            useLegacyPackaging false
         }
     }
 
@@ -49,7 +58,6 @@ dependencies {
     implementation libs.work.runtime
     implementation libs.firebase.messaging
     implementation libs.google.firebase.analytics
-    implementation libs.tess.two
     implementation libs.pdfbox.android
     implementation libs.android.mail
     implementation libs.android.activation

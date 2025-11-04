@@ -32,9 +32,6 @@ import java.io.InputStream;
 
 public class FragmentTrans extends AppCompatActivity {
 
-    //ca-app-pub-3940256099942544/1033173712        deneme tam ekran reklam
-    //ca-app-pub-7577324739927592/7859309101        benimki gecis
-    private static final String AD_UNIT_ID_2 = "ca-app-pub-7577324739927592/7859309101";
     private AdView banner = null;
     private InterstitialAd mInterstitialAd;
     private ActivityResultLauncher<Intent> pdfPickerLauncher;
@@ -155,7 +152,7 @@ public class FragmentTrans extends AppCompatActivity {
 
     private void loadInterstitialAd() {
         AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(this, AD_UNIT_ID_2, adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this, getString(R.string.admob_interstitial_id), adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(InterstitialAd ad) {
                 mInterstitialAd = ad;

@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <application android:hardwareAccelerated="true"
         android:theme="@style/Theme.Unisaver"
@@ -27,11 +26,9 @@
         android:extractNativeLibs= "true"
         tools:targetApi="31">
 
-        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
-        <!-- Benimkisi: ca-app-pub-7577324739927592~9931457225 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-7577324739927592~9931457225"/>
+            android:value="@string/admob_app_id"/>
 
         <activity
             android:name=".MainActivity"

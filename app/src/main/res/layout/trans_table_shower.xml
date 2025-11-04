@@ -227,7 +227,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-7577324739927592/5175098141"
+            ads:adUnitId="@string/admob_trans_banner"
             android:layout_gravity="center"/>
         </LinearLayout>
     </LinearLayout>

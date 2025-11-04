@@ -388,7 +388,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-7577324739927592/8078347672"/>
+            ads:adUnitId="@string/admob_manuel_combination_banner"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

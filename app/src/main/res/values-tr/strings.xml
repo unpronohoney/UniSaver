@@ -221,6 +221,11 @@
     <string name="min_agno_max">Min agno, max agnodan büyük olamaz.</string>
 
     <string name="manuel_2">Ders Tablosu</string>
-
+    <string name="admob_interstitial_id">ca-app-pub-7577324739927592/7859309101</string>
+    <string name="admob_info_fb_banner">ca-app-pub-7577324739927592/6601528758</string>
+    <string name="admob_letter_grades_banner">ca-app-pub-7577324739927592/4925570724</string>
+    <string name="admob_trans_banner">ca-app-pub-7577324739927592/5175098141</string>
+    <string name="admob_manuel_combination_banner">ca-app-pub-7577324739927592/8078347672</string>
+    <string name="admob_app_id">ca-app-pub-7577324739927592~9931457225</string>
 
 </resources>
