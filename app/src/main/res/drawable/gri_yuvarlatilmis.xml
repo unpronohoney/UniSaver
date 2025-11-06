@@ -4,7 +4,7 @@
     <item>
         <shape>
             <solid android:color="@color/gri" /> <!-- Butonun arka plan rengi -->
-            <corners android:radius="30dp" /> <!-- Kenarların yuvarlanma miktarı -->
+            <corners android:radius="32dp" /> <!-- Kenarların yuvarlanma miktarı -->
         </shape>
     </item>
 </ripple>

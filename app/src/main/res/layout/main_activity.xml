@@ -57,35 +57,36 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/montserrat_alternates_semibold"
                 android:gravity="center"
                 android:text="@string/app_name"
                 android:textColor="@color/white"
-                android:textSize="75sp"
-                android:textStyle="bold"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="35dp"/>
+                android:textSize="72sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/basic"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:text="@string/main_welcome"
                 android:textColor="@color/white"
-                android:textSize="17sp"
+                android:textSize="16sp"
                 android:textStyle="bold|italic" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/basic"
+                android:layout_marginTop="96dp"
+                android:layout_marginBottom="32dp"
+                android:fontFamily="@font/roboto"
                 android:gravity="center"
                 android:text="@string/main_head1"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="italic"
-                android:layout_marginTop="100dp"
-                android:layout_marginBottom="30dp"/>
+                android:textStyle="italic" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/agnoHesapBtn"
@@ -93,38 +94,38 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_green_button"
-                android:fontFamily="@font/aclonica"
+                android:fontFamily="@font/montserrat_alternates_semibold"
                 android:text="@string/main_btns1"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/agnoKurtarBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
                 android:background="@drawable/rounded_green_button"
-                android:fontFamily="@font/aclonica"
+                android:fontFamily="@font/montserrat_alternates_semibold"
                 android:text="@string/main_btns2"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"/>
+                android:textSize="20sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/transBttn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginBottom="48dp"
                 android:background="@drawable/rounded_green_button"
-                android:fontFamily="@font/aclonica"
+                android:fontFamily="@font/montserrat_alternates_semibold"
                 android:text="@string/main_btns3"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:layout_marginBottom="40dp"/>
+                android:textSize="20sp" />
 
         </LinearLayout>
     </ScrollView>
@@ -146,11 +147,10 @@
             android:autoLink="web"
             android:clickable="true"
             android:focusable="true"
-            android:fontFamily="@font/aclonica"
+            android:fontFamily="@font/montserrat_alternates_semibold"
             android:text="@string/main_head2"
             android:textColor="@color/white"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -166,11 +166,10 @@
             android:autoLink="web"
             android:clickable="true"
             android:focusable="true"
-            android:fontFamily="@font/aclonica"
+            android:fontFamily="@font/montserrat_alternates_semibold"
             android:text="@string/main_head3"
             android:textColor="@color/white"
-            android:textSize="12sp"
-            android:textStyle="bold" />
+            android:textSize="14sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

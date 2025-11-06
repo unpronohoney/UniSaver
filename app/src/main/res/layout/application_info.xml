@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@color/mor"
-        android:padding="10dp">
+        android:padding="8dp">
 
         <ImageButton
             android:id="@+id/anaSayfaDonIn"
@@ -50,9 +50,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
                 android:gravity="center"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -64,13 +64,12 @@
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="@string/giveAdvise"
                     android:textAlignment="center"
                     android:textColor="#673AB7"
-                    android:textSize="35sp"
-                    android:fontFamily="@font/acme"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="20dp"/>
+                    android:textSize="32sp" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -78,20 +77,20 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/aimOfProject"
                     android:textColor="@color/black"
-                    android:textSize="17sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/acme"
+                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/info_head1"
                     android:textColor="#673AB7"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -99,20 +98,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/head1_exp"
                     android:textColor="@color/black"
-                    android:textSize="17sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/acme"
+                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/info_head2"
                     android:textColor="#673AB7"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -120,20 +119,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/head2_exp"
                     android:textColor="@color/black"
-                    android:textSize="17sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/acme"
+                    android:fontFamily="@font/montserrat_alternates_medium"
                     android:text="@string/info_head3"
                     android:textColor="#673AB7"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -141,20 +140,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/head3_exp"
                     android:textColor="@color/black"
-                    android:textSize="17sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/acme"
+                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/info_head4"
                     android:textColor="#673AB7"
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -162,22 +161,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:breakStrategy="simple"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/roboto"
                     android:text="@string/head4_exp"
                     android:textColor="@color/black"
-                    android:textSize="17sp" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/basic"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/montserrat_alternates_medium"
                     android:text="@string/wish_luck"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="30dp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

@@ -15,14 +15,14 @@
     <string name="hint999">max 999</string>
 
     <string name="butPassAdding">Go to Course Entry</string>
-    <string name="dersBekle">First, click \"Go to Course Entry\".</string>
     <string name="lecCred">Course credit</string>
     <string name="lecPastLetter">Previous letter grade of the course:</string>
     <string name="butAddLec">Add Course</string>
 
     <string name="currentAgno">Current GPA grade:</string>
-    <string name="totalCred2">Total credits of courses included in the GPA (except new term):</string>
-    <string name="ders_girisi">Course entry. (Enter the courses to be changed.)</string>
+    <string name="totalCred2">Current total course credits:</string>
+    <string name="ders_girisi">Course Entry</string>
+    <string name="ders_girisi_info">Enter the courses whose grades you want to change.</string>
     <string name="manuel_5">Course name</string>
     <string name="lecNewLetter">New letter grade for the course:</string>
     <string name="manuel_2">Course Table</string>
@@ -46,7 +46,7 @@
     <string name="edevlet_info"><html>Please use the transcript document you obtained from E-Devlet. Otherwise, an error will occur.</html></string>
     <string name="trans_btn">Choose Transcript</string>
     <string name="playPuanla">Rate Us</string>
-    <string name="degermi">\t\tYour opinions about UniSaver are very valuable to us. Please share your reviews, good or bad.</string>
+    <string name="degermi">Your opinions about UniSaver are very valuable to us. Please share your reviews, good or bad.</string>
     <string name="degerlendirButton">Rate</string>
     <string name="basaAl">Reset</string>
     <string name="silmeyiGeriAl">Undo Deletion</string>
@@ -122,7 +122,7 @@
     <string name="ilk_bilgi">First information;\n</string>
     <string name="agno_cred">GPA: %.2f\nCredits: %d</string>
     <string name="choose_app">Choose application to share</string>
-    <string name="agno_cred_info">\tFirst term GPA: %.2f Credits: %d\t</string>
+    <string name="agno_cred_info">\tPrevious GPA: %.2f Credits: %d\t</string>
     <string name="enter_ders_error">The credits of the courses those have previous letter grades cannot exceed the total credits.</string>
     <string name="tekrarDers">If you wish, you can enter the course again.</string>
     <string name="koms_info">The combinations were created successfully.</string>

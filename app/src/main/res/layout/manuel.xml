@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:background="@color/mor"
         android:orientation="horizontal"
-        android:padding="10dp">
+        android:padding="8dp">
 
         <ImageButton
             android:id="@+id/anaSayfaDon1"
@@ -45,8 +45,8 @@
             android:text="@string/refresh"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="17sp"
-            android:textStyle="bold" />
+            android:textSize="16sp"
+            />
     </LinearLayout>
 
         <LinearLayout
@@ -67,9 +67,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -79,13 +79,13 @@
                     android:id="@+id/act_1_baslik"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/acme"
+                    android:layout_marginBottom="32dp"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="@string/main_btns1"
                     android:textAlignment="center"
                     android:textColor="#673AB7"
-                    android:textSize="35sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="20dp"/>
+                    android:textSize="32sp"
+                    />
 
                 <LinearLayout
                     android:id="@+id/donemKismi"
@@ -105,7 +105,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:breakStrategy="simple"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/currentAgno"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
@@ -123,7 +123,7 @@
                         android:maxLength="4"
                         android:textColor="@android:color/black"
                         android:textColorHint="@color/koyuGri"
-                        android:textSize="15sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -138,7 +138,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="1"
                         android:breakStrategy="simple"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/totalCred2"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
@@ -155,22 +155,22 @@
                         android:maxLength="3"
                         android:textColor="@android:color/black"
                         android:textColorHint="@color/koyuGri"
-                        android:textSize="15sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/gec1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/basic"
-                    android:text="@string/butPassAdding"
-                    android:textColor="@color/white"
-                    android:textSize="17sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:backgroundTint="@color/mor"/>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/gec1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="@color/mor"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/butPassAdding"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                         />
 
                 </LinearLayout>
 
@@ -178,26 +178,14 @@
                     android:id="@+id/oncekiBilgi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asd "
                     android:layout_gravity="center"
-                    android:fontFamily="@font/basic"
-                    android:textColor="@color/white"
-                    android:textSize="17sp"
-                    android:textStyle="bold|italic"
-                    android:layout_marginBottom="10dp"
                     android:background="@drawable/green_back"
-                    android:padding="5dp"/>
-
-                <TextView
-                    android:id="@+id/derseGecis"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/dersBekle"
-                    android:gravity="center"
-                    android:fontFamily="@font/basic"
-                    android:textColor="#673AB7"
-                    android:textSize="12sp"
-                    android:textStyle="bold|italic"/>
+                    android:fontFamily="monospace"
+                    android:padding="5dp"
+                    android:text="asd "
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
 
                 <LinearLayout
                     android:id="@+id/dersEkleKismi"
@@ -205,18 +193,18 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/dersKismi1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/acme"
-                    android:text="@string/ders_girisi"
-                    android:textAlignment="center"
-                    android:textColor="#673AB7"
-                    android:textSize="17sp"
-                    android:textStyle="bold|italic"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/dersKismi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="@string/ders_girisi"
+                        android:textAlignment="textStart"
+                        android:textColor="#673AB7"
+                        android:textSize="24sp"
+                        />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -225,34 +213,32 @@
 
                     <EditText
                         android:id="@+id/dersAdi"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
                         android:autofillHints=""
                         android:fontFamily="@font/roboto"
                         android:hint="@string/manuel_5"
                         android:inputType="text"
                         android:textColor="@android:color/black"
                         android:textColorHint="@color/koyuGri"
-                        android:textSize="15sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="10dp"
+                        android:layout_height="8dp"
                         android:layout_weight="1" />
 
                     <EditText
                         android:id="@+id/dersKredi1"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
                         android:autofillHints=""
                         android:fontFamily="@font/roboto"
                         android:hint="@string/lecCred"
                         android:inputType="number"
                         android:textColor="@android:color/black"
                         android:textColorHint="@color/koyuGri"
-                        android:textSize="15sp" />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
@@ -261,19 +247,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp">
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
                         android:layout_weight="1"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lecPastLetter"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:layout_marginEnd="10dp"/>
+                        android:textSize="16sp" />
 
                     <Spinner
                         android:id="@+id/eskiHarf"
@@ -295,12 +281,12 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
                         android:layout_weight="1"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lecNewLetter"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:layout_marginEnd="10dp"/>
+                        android:textSize="16sp" />
 
                     <Spinner
                         android:id="@+id/yeniHarf"
@@ -318,15 +304,15 @@
                         android:id="@+id/addDers1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/basic"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/mor"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="@string/butAddLec"
                         android:textColor="@color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_gravity="center"
-                        android:backgroundTint="@color/mor"/>
+                        android:textSize="16sp"
+                        />
 
                 </LinearLayout>
 
@@ -334,20 +320,20 @@
                     android:id="@+id/tabloIsim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/montserrat_bold"
                     android:text="@string/manuel_2"
                     android:textAllCaps="false"
                     android:textColor="@color/mor"
-                    android:textSize="20sp"
-                    android:textStyle="bold|italic" />
+                    android:textSize="24sp"
+                    />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:cardElevation="0dp"
                     app:cardBackgroundColor="@color/gri"
-                    app:cardCornerRadius="30dp"
-                    android:layout_marginTop="10dp">
+                    app:cardCornerRadius="32dp"
+                    android:layout_marginTop="8dp">
 
                     <com.unisaver.unisaver.RecyclerViewWithMaxHeight
                         android:id="@+id/tablo"
@@ -364,19 +350,19 @@
                     android:contentDescription="share"
                     android:src="@android:drawable/ic_menu_share"
                     android:background="@drawable/green_back"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"/>
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"/>
 
                 <TextView
                     android:id="@+id/hesaplananAgno1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="56dp"
                     android:fontFamily="monospace"
                     android:text="@string/agnoShow"
                     android:textColor="@color/mor"
                     android:textSize="20sp"
-                    android:textStyle="bold|italic"
-                    android:layout_marginBottom="55dp"/>
+                    />
 
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

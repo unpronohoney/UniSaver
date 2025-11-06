@@ -4,6 +4,9 @@
         <item name="android:statusBarColor">@color/mor</item>
         <item name="android:navigationBarColor">@color/mor</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorControlActivated">@color/mor</item>
+        <item name="colorOnSurface">@color/gri</item>
+        <item name="colorOutline">@color/gri</item>
     </style>
 
 </resources>

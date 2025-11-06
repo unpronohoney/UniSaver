@@ -95,7 +95,6 @@ public class KombinasyonluHesap extends AppCompatActivity {
 
         TextView komBilgi = findViewById(R.id.olasBilgi);
         TextView dersSayaci = findViewById(R.id.dersSayaci);
-        TextView derseGecis = findViewById(R.id.derseGecis);
 
         dersSayaci.setText(getString(R.string.derssayar, dersSayac));
 
@@ -167,7 +166,6 @@ public class KombinasyonluHesap extends AppCompatActivity {
             dersKismi.setVisibility(View.GONE);
             kisitlar.setVisibility(View.GONE);
             olasiliklar.setVisibility(View.GONE);
-            derseGecis.setText(getString(R.string.dersBekle));
             dersAdi.setText("");
             komlar.setAdapter(null);
             dersSayac = 0;
@@ -217,7 +215,6 @@ public class KombinasyonluHesap extends AppCompatActivity {
                         ilkKredi = Integer.parseInt(String.valueOf(kredi.getText()));
                         tutucu1 = new GenelNot(ilkKredi, ilkAgno);
                         Toast.makeText(MainActivity.getAppContext(), getString(R.string.ders_gir_info), Toast.LENGTH_SHORT).show();
-                        derseGecis.setText(getString(R.string.dersEkleyebilirsin));
                         donemKismi.setVisibility(View.GONE);
                         dersKismi.setVisibility(View.VISIBLE);
                         oncekiDonem.setText(getString(R.string.agno_cred_info, ilkAgno, ilkKredi));

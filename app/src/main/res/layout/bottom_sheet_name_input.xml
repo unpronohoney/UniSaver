@@ -16,10 +16,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
             android:hint="@string/notDiziIsmi"
-            android:fontFamily="@font/basic"
-            android:textSize="15sp"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:textSize="16sp" />
 
     </HorizontalScrollView>
 
@@ -28,9 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:backgroundTint="@color/mor"
-        android:fontFamily="@font/basic"
+        android:fontFamily="@font/roboto"
         android:text="@string/next"
         android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="16sp"
+         />
 </LinearLayout>

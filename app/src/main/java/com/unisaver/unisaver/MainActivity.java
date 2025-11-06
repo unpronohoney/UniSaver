@@ -12,6 +12,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -83,6 +84,13 @@ public class MainActivity extends AppCompatActivity {
         TextView bilgiAlma = findViewById(R.id.bilgiAlma);
 
         ImageButton menu = findViewById(R.id.menu);
+
+        DisplayMetrics metrics = getResources().getDisplayMetrics();
+        int screenWidthPx = metrics.widthPixels;
+
+        int paddingPx = (int) (32 * metrics.density);
+
+        int maxWidth = screenWidthPx - paddingPx;
 
         new Thread(() -> {
             GradingSystemDao dao = AppDataBase.getInstance(appContext).gradingSystemDao();
@@ -188,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        hesapAct1.setMaxWidth(maxWidth);
         Button hesapAct2 = findViewById(R.id.agnoKurtarBtn);
         hesapAct2.setOnClickListener(view -> {
             if (Ders.getSortedLetters().length==0) {
@@ -197,11 +206,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        hesapAct2.setMaxWidth(maxWidth);
         Button hesapAct3 = findViewById(R.id.transBttn);
         hesapAct3.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, FragmentTrans.class);
             startActivity(intent);
         });
+        hesapAct3.setMaxWidth(maxWidth);
 
 
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task -> {

@@ -2,9 +2,12 @@ package com.unisaver.unisaver;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class IhtimallerDizisi {
 	private HashMap<Integer, Double[]> eskiAgnoVeSapmalar ;
@@ -23,63 +26,41 @@ public class IhtimallerDizisi {
 		return counter;
 	}
 	public boolean ihtimalleriEkle(ArrayList<Ihtimal> ihtimaller, double agno, double minAgno, double maxAgno, int kredi) {
-		if (eskiAgnoVeSapmalar.isEmpty()) {
-			counter++;
-			for (Ihtimal ih : ihtimaller) {
-				agno += ih.getEtkiDuzeyi();
-				minAgno += ih.getEtkiDuzeyi();
-				maxAgno += ih.getEtkiDuzeyi();
+		if (!eskiAgnoVeSapmalar.isEmpty()) {
+			String yeniHash = ihtimaller.stream()
+					.map(Ihtimal::getYuksekNot)
+					.collect(Collectors.joining(","));
+
+			Set<String> eskiHashler = eskiIhtimaller.values().stream()
+					.map(l -> l.stream().map(Ihtimal::getYuksekNot)
+							.collect(Collectors.joining(",")))
+					.collect(Collectors.toSet());
+
+			if (eskiHashler.contains(yeniHash)) {
+				return false;
 			}
-			double real = Math.round(agno * 1000.0) / 1000.0;
-			double min = Math.round(minAgno * 1000.0) / 1000.0;
-			double max = Math.round(maxAgno * 1000.0) / 1000.0;
-			real = Math.round(real * 100.0) / 100.0;
-			min = Math.round(min * 100.0) / 100.0;
-			max = Math.round(max * 100.0) / 100.0;
-			min = real - min;
-			max = max - real;
-			min = Math.round(min * 100.0) / 100.0;
-			max = Math.round(max * 100.0) / 100.0;
-			Double[] tutacak = {agno, min, max};
-			eskiAgnoVeSapmalar.put(counter, tutacak);
-			eskiIhtimaller.put(counter, ihtimaller);
-			krediler.put(counter, kredi);
-			return true;
-		} else {
-			int aynilar = 0;
-			for (Integer i : eskiIhtimaller.keySet()) {
-				for (int j = 0; j < ihtimaller.size(); j++) {
-					if (eskiIhtimaller.get(i).get(j).getYuksekNot().equals(ihtimaller.get(j).getYuksekNot())) {
-						aynilar++;
-					}
-				}
-				if (aynilar == ihtimaller.size()) {
-					return false;
-				}
-				aynilar = 0;
-			}
-			counter++;
-			for (Ihtimal ih : ihtimaller) {
-				agno += ih.getEtkiDuzeyi();
-				minAgno += ih.getEtkiDuzeyi();
-				maxAgno += ih.getEtkiDuzeyi();
-			}
-			double real = Math.round(agno * 1000.0) / 1000.0;
-			double min = Math.round(minAgno * 1000.0) / 1000.0;
-			double max = Math.round(maxAgno * 1000.0) / 1000.0;
-			real = Math.round(real * 100.0) / 100.0;
-			min = Math.round(min * 100.0) / 100.0;
-			max = Math.round(max * 100.0) / 100.0;
-			min = real - min;
-			max = max - real;
-			min = Math.round(min * 100.0) / 100.0;
-			max = Math.round(max * 100.0) / 100.0;
-			Double[] tutacak = {agno, min, max};
-			eskiAgnoVeSapmalar.put(counter, tutacak);
-			eskiIhtimaller.put(counter, ihtimaller);
-			krediler.put(counter, kredi);
-			return true;
 		}
+		counter++;
+		for (Ihtimal ih : ihtimaller) {
+			agno += ih.getEtkiDuzeyi();
+			minAgno += ih.getEtkiDuzeyi();
+			maxAgno += ih.getEtkiDuzeyi();
+		}
+		double real = Math.round(agno * 1000.0) / 1000.0;
+		double min = Math.round(minAgno * 1000.0) / 1000.0;
+		double max = Math.round(maxAgno * 1000.0) / 1000.0;
+		real = Math.round(real * 100.0) / 100.0;
+		min = Math.round(min * 100.0) / 100.0;
+		max = Math.round(max * 100.0) / 100.0;
+		min = real - min;
+		max = max - real;
+		min = Math.round(min * 100.0) / 100.0;
+		max = Math.round(max * 100.0) / 100.0;
+		Double[] tutacak = {agno, min, max};
+		eskiAgnoVeSapmalar.put(counter, tutacak);
+		eskiIhtimaller.put(counter, ihtimaller);
+		krediler.put(counter, kredi);
+		return true;
 	}
 
 	public Map<Integer, Double[]> getEskiAgnolar() {
@@ -87,25 +68,27 @@ public class IhtimallerDizisi {
 	}
 
 	public void listByAgno() {
+		// eskiAgnoVeSapmalar'ı AGNO değerine (index 0) göre azalan sırada sırala
+		List<Map.Entry<Integer, Double[]>> sortedEntries = eskiAgnoVeSapmalar.entrySet()
+				.stream()
+				.sorted((e1, e2) -> Double.compare(e2.getValue()[0], e1.getValue()[0])) // azalan sıralama
+				.collect(Collectors.toList());
+
+		// yeni map'leri oluştur
 		HashMap<Integer, ArrayList<Ihtimal>> yeniEskiIhtimaller = new HashMap<>();
 		HashMap<Integer, Double[]> yeniEskiAgnolar = new HashMap<>();
-		Double maxAgno = -0.5;
-		Integer maxAgnoInt = 0;
-		Integer uzunluk = eskiAgnoVeSapmalar.size();
-		for (Integer yeniCounter = 1; yeniCounter<uzunluk+1 ; yeniCounter++) {
-			for (Integer j : eskiAgnoVeSapmalar.keySet()) {
-				if (eskiAgnoVeSapmalar.get(j)[0]>maxAgno) {
-					maxAgno = eskiAgnoVeSapmalar.get(j)[0];
-					maxAgnoInt = j;
-				}
-			}
-			yeniEskiIhtimaller.put(yeniCounter, eskiIhtimaller.get(maxAgnoInt));
-			Double[] a = {maxAgno, eskiAgnoVeSapmalar.get(maxAgnoInt)[1], eskiAgnoVeSapmalar.get(maxAgnoInt)[2]};
-			yeniEskiAgnolar.put(yeniCounter, a);
-			maxAgno = -0.5;
-			eskiIhtimaller.remove(maxAgnoInt);
-			eskiAgnoVeSapmalar.remove(maxAgnoInt);
+
+		int counter = 1;
+		for (Map.Entry<Integer, Double[]> entry : sortedEntries) {
+			Integer key = entry.getKey();
+			Double[] values = entry.getValue();
+
+			yeniEskiIhtimaller.put(counter, eskiIhtimaller.get(key));
+			yeniEskiAgnolar.put(counter, values);
+			counter++;
 		}
+
+		// referansları güncelle
 		this.eskiAgnoVeSapmalar = yeniEskiAgnolar;
 		this.eskiIhtimaller = yeniEskiIhtimaller;
 	}

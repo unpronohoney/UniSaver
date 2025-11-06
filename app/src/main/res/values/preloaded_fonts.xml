@@ -7,6 +7,14 @@
         <item>@font/alice</item>
         <item>@font/anybody</item>
         <item>@font/basic</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_alternates_bold</item>
+        <item>@font/montserrat_alternates_extrabold</item>
+        <item>@font/montserrat_alternates_medium</item>
+        <item>@font/montserrat_alternates_semibold</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/montserrat_medium</item>
+        <item>@font/montserrat_thin</item>
         <item>@font/roboto</item>
     </array>
 </resources>

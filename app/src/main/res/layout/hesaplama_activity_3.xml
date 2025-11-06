@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="10dp"
+        android:padding="8dp"
         android:background="@color/mor">
         <ImageButton
             android:id="@+id/anaSayfaDon3"
@@ -47,34 +47,34 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/acme"
-                            android:text="@string/main_btns3"
-                            android:textAlignment="center"
-                            android:textColor="#673AB7"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/main_btns3"
+                    android:textAlignment="center"
+                    android:textColor="#673AB7"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/roboto"
-                            android:text="@string/edevlet_info"
-                            android:textColor="@color/black"
-                            android:textSize="17sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="30dp"
-                            android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/edevlet_info"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/transBelgesi"
@@ -82,23 +82,23 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:backgroundTint="@color/mor"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/trans_btn"
                     android:textColor="@color/white"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textSize="16sp"
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/montserrat_alternates_medium"
                     android:text="@string/playPuanla"
                     android:textColor="@color/mor"
-                    android:fontFamily="@font/acme"
-                    android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginBottom="20dp"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -114,14 +114,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
                     android:backgroundTint="@color/mor"
-                    android:fontFamily="@font/basic"
+                    android:fontFamily="@font/montserrat_medium"
                     android:text="@string/degerlendirButton"
                     android:textColor="@color/white"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textSize="16sp"
+                     />
 
             </LinearLayout>
 

@@ -96,7 +96,7 @@ public class ManuelHesap extends AppCompatActivity {
         tablo.addItemDecoration(new SpaceItemDecoration(16));
 
         TextView info = findViewById(R.id.hesaplananAgno1);
-        TextView derseGecis = findViewById(R.id.derseGecis);
+
         TextView tabloIsim = findViewById(R.id.tabloIsim);
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<>(MainActivity.getAppContext(), R.layout.spinner_inside, eskiharfler);
@@ -165,7 +165,6 @@ public class ManuelHesap extends AppCompatActivity {
             ilkKredi = -1;
             oncekiDonem.setVisibility(View.GONE);
             donemKismi.setVisibility(View.VISIBLE);
-            derseGecis.setText(getString(R.string.dersBekle));
             share.setVisibility(View.GONE);
             tabloIsim.setVisibility(View.GONE);
             info.setVisibility(View.GONE);
@@ -212,7 +211,6 @@ public class ManuelHesap extends AppCompatActivity {
                     tablo.setAdapter(adapter);
                     dersNolar = 1;
                     Toast.makeText(MainActivity.getAppContext(), getString(R.string.ders_gir_info), Toast.LENGTH_SHORT).show();
-                    derseGecis.setText(getString(R.string.dersEkleyebilirsin));
                     dersEkleme.setVisibility(View.VISIBLE);
                     donemKismi.setVisibility(View.GONE);
                     oncekiDonem.setText(getString(R.string.agno_cred_info, ilkAgno, ilkKredi));

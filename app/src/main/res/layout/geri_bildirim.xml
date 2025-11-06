@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="@color/mor"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="8dp">
 
             <ImageButton
                 android:id="@+id/anaSayfaDon3"
@@ -48,9 +48,9 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="30dp"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="24dp"
                         android:orientation="vertical"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -59,21 +59,21 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="32dp"
                             android:breakStrategy="simple"
-                            android:fontFamily="@font/acme"
+                            android:fontFamily="@font/montserrat_bold"
                             android:gravity="center"
                             android:text="@string/act_3_head2"
                             android:textColor="#673AB7"
-                            android:textSize="35sp"
-                            android:textStyle="bold"
-                            android:layout_marginBottom="20dp"/>
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/act_3_text1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:breakStrategy="simple"
-                            android:fontFamily="@font/basic"
+                            android:fontFamily="@font/montserrat_alternates_medium"
                             android:labelFor="@+id/gbKonu"
                             android:text="@string/gbKonnu"
                             android:textColor="@color/black"
@@ -82,28 +82,29 @@
                         <EditText
                             android:id="@+id/gbKonu"
                             android:layout_width="match_parent"
-                            android:layout_height="30dp"
+                            android:layout_height="32dp"
                             android:autofillHints=""
                             android:background="@drawable/border_white"
+                            android:fontFamily="@font/roboto"
                             android:inputType="text"
                             android:textColor="@color/black"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"/>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="8dp"
                             android:breakStrategy="simple"
-                            android:fontFamily="casual"
+                            android:fontFamily="@font/roboto"
                             android:text="@string/act_3_head3"
                             android:textColor="@color/mor"
-                            android:textSize="13sp"
-                            android:textStyle="bold|italic"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginBottom="10dp"/>
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <Button
@@ -111,10 +112,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="@color/mor"
-                                android:fontFamily="@font/basic"
+                                android:fontFamily="@font/montserrat_medium"
                                 android:text="@string/findTrans"
                                 android:textColor="@color/white"
-                                android:textSize="17sp"
+                                android:textSize="16sp"
                                 android:textStyle="bold" />
 
                             <TextView
@@ -132,16 +133,16 @@
                             android:id="@+id/act_3_text2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/basic"
+                            android:layout_marginTop="24dp"
+                            android:fontFamily="@font/montserrat_alternates_medium"
                             android:text="@string/gbAccik"
                             android:textColor="@color/black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="20dp"/>
+                            android:textSize="16sp" />
 
                         <ScrollView
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
-                            android:layout_marginBottom="10dp">
+                            android:layout_marginBottom="16dp">
 
                             <EditText
                                 android:id="@+id/gbAciklama"
@@ -149,11 +150,12 @@
                                 android:layout_height="100dp"
                                 android:autofillHints=""
                                 android:background="@drawable/border_white"
+                                android:fontFamily="@font/roboto"
                                 android:gravity="top|start"
                                 android:inputType="textMultiLine"
                                 android:minHeight="200dp"
                                 android:textColor="@color/black"
-                                android:textSize="15sp" />
+                                android:textSize="16sp" />
                         </ScrollView>
 
                         <Button

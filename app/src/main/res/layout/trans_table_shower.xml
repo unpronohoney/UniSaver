@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="@color/mor"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="8dp">
 
             <ImageButton
                 android:id="@+id/anaSayfayaDon"
@@ -40,12 +40,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_button"
-                android:fontFamily="@font/basic"
+                android:fontFamily="@font/montserrat_medium"
                 android:text="@string/basaAl"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                />
 
             <TextView
                 android:layout_width="0dp"
@@ -57,12 +57,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_button"
-                android:fontFamily="@font/basic"
+                android:fontFamily="@font/montserrat_medium"
                 android:text="@string/silmeyiGeriAl"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                />
 
         </LinearLayout>
 
@@ -98,7 +98,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:cardBackgroundColor="@color/gri"
-                        app:cardCornerRadius="30dp"
+                        app:cardCornerRadius="32dp"
                         app:cardElevation="0dp">
 
                         <androidx.recyclerview.widget.RecyclerView
@@ -111,8 +111,8 @@
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
                         android:background="@drawable/green_back"
                         android:elevation="5dp"
                         android:padding="5dp">
@@ -121,12 +121,12 @@
                             android:id="@+id/agnoBilgisi"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="7dp"
+                            android:layout_marginStart="8dp"
                             android:fontFamily="monospace"
                             android:text="@string/agnofirst"
                             android:textColor="@color/white"
-                            android:textSize="15sp"
-                            android:textStyle="bold|italic"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -134,12 +134,12 @@
                             android:id="@+id/krediBilgisi"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginEnd="7dp"
+                            android:layout_marginEnd="8dp"
                             android:fontFamily="monospace"
                             android:text="@string/credfirst"
                             android:textColor="@color/white"
-                            android:textSize="15sp"
-                            android:textStyle="bold|italic"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -154,7 +154,7 @@
                         android:inputType="text"
                         android:textColor="@android:color/black"
                         android:textColorHint="@color/koyuGri"
-                        android:textSize="15sp" />
+                        android:textSize="16sp" />
 
 
                     <LinearLayout
@@ -174,7 +174,7 @@
                             android:inputType="number"
                             android:textColor="@android:color/black"
                             android:textColorHint="@color/koyuGri"
-                            android:textSize="15sp" />
+                            android:textSize="16sp" />
 
                         <Spinner
                             android:id="@+id/addDersSpinNot"
@@ -197,12 +197,12 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/purple_circle_button"
                         android:backgroundTint="@color/mor"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="@string/butAddLec"
+                        android:textAllCaps="false"
                         android:textColor="@android:color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:textAllCaps="false"/>
+                        android:textSize="16sp"
+                         />
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/notSystem"
@@ -210,12 +210,12 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/purple_circle_button"
                         android:backgroundTint="@color/mor"
-                        android:fontFamily="@font/basic"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="@string/uniNotes"
+                        android:textAllCaps="false"
                         android:textColor="@android:color/white"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:textAllCaps="false"/>
+                        android:textSize="16sp"
+                        />
 
                 </LinearLayout>
 

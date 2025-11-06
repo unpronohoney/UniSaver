@@ -40,7 +40,7 @@
     <string name="trans_btn">Transkripti Seç</string>
     <string name="currentAgno">Mevcut AGNO(GNO) notu:</string>
     <string name="pointHint">3.14 gibi</string>
-    <string name="totalCred2">AGNO\'ya katılmış derslerin kredi toplamları (yeni dönem hariç) :</string>
+    <string name="totalCred2">Güncel kredi sayısı:</string>
     <string name="hint999">max. 999</string>
     <string name="butPassAdding">Ders Girişine Geç</string>
 
@@ -65,7 +65,8 @@
     <string name="uniNotes">Üniversitenizin Notlandırma Sistemi</string>
     <string name="sending">Gönderiliyor…</string>
 
-    <string name="ders_girisi">Ders girişi. (Değiştirilecek dersleri giriniz.)</string>
+    <string name="ders_girisi">Ders Girişi</string>
+    <string name="ders_girisi_info">Notunu değiştireceğin dersleri gir.</string>
     <string name="lecCred">Dersin kredisi</string>
     <string name="kisitlar">Hesaplama Kısıtları</string>
     <string name="minAgno">Ulaşmak istediğiniz agno :</string>
@@ -82,10 +83,10 @@
     <string name="lecNewLetter">Dersin yeni harf notu :</string>
     <string name="manuel_5">Dersin adı</string>
 
-    <string name="dersBekle">Önce \"Ders Girişine Geç\" butonuna bas.</string>
+
 
     <string name="playPuanla">Bizi Değerlendirin</string>
-    <string name="degermi">\t\tUniSaver hakkındaki fikirleriniz bizim için çok değerlidir. İyi ya da kötü değerlendirmelerinizi lütfen paylaşın.</string>
+    <string name="degermi">UniSaver hakkındaki fikirleriniz bizim için çok değerlidir. İyi ya da kötü değerlendirmelerinizi lütfen paylaşın.</string>
     <string name="degerlendirButton">Değerlendir</string>
     <string name="ozelHarfler">Ders Notu Ayarları</string>
 
@@ -125,7 +126,7 @@
     <string name="ilk_bilgi">İlk bilgiler;\n</string>
     <string name="agno_cred">AGNO(GNO): %f\nKredi: %d\n</string>
     <string name="choose_app">Paylaşmak için uygulama seç</string>
-    <string name="agno_cred_info">\tİlk dönem AGNO(GNO): %.2f Kredi: %d\t</string>
+    <string name="agno_cred_info">\tİlk AGNO(GNO): %.2f Kredi: %d\t</string>
     <string name="enter_ders_error">Önceki harf notu olan derslerin kredisi toplam krediden fazla olamaz.</string>
     <string name="tekrarDers">Dilerseniz tekrar ders girişi yapabilirsiniz.</string>
     <string name="koms_info">Kombinasyonlar başarıyla oluşturuldu.</string>
