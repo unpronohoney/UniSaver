@@ -15,9 +15,9 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 public class GeriBildirim {
-    private final String gonderenMail = "agnokurtar@gmail.com";  // Kendi Gmail adresini yaz
-    private final String sifre = "venn csuj fonl cgkk";  // Gmail uygulama şifreni buraya yaz
-    private final String aliciMail = "agnokurtar@gmail.com";  // E-posta göndereceğin kişi
+    private final String gonderenMail = "SENDER_MAIL_ADDRESS";  // Kendi Gmail adresini yaz
+    private final String sifre = "SENDER_PASS_CODE";  // Gmail uygulama şifreni buraya yaz
+    private final String aliciMail = "RECEIVER_MAIL_ADDRESS";  // E-posta göndereceğin kişi
     private String message;
 
     public GeriBildirim(String konu, String mesaj, File dosyaYolu) {
