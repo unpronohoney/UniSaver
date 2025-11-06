@@ -222,11 +222,4 @@
     <string name="min_agno_max">Min agno, max agnodan büyük olamaz.</string>
 
     <string name="manuel_2">Ders Tablosu</string>
-    <string name="admob_interstitial_id">YOUR-ADMOB-INTERSTITIAL-ID</string>
-    <string name="admob_info_fb_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_letter_grades_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_trans_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_manuel_combination_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_app_id">YOUR-ADMOB-PROJECT-ID</string>
-
 </resources>

@@ -223,12 +223,12 @@
     <string name="first_basis">Firstly enter main information.</string>
     <string name="term_info_err">You did not enter the term information!</string>
     <string name="min_agno_max">Min GPA must be lower than max GPA.</string>
-    <string name="admob_interstitial_id">YOUR-ADMOB-INTERSTITIAL-ID</string>
-    <string name="admob_info_fb_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_letter_grades_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_trans_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_manuel_combination_banner">YOUR-ADMOB-BANNER-ID</string>
-    <string name="admob_app_id">YOUR-ADMOB-PROJECT-ID</string>
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-7577324739927592/7859309101</string>
+    <string name="admob_info_fb_banner" translatable="false">ca-app-pub-7577324739927592/6601528758</string>
+    <string name="admob_letter_grades_banner" translatable="false">ca-app-pub-7577324739927592/4925570724</string>
+    <string name="admob_trans_banner" translatable="false">ca-app-pub-7577324739927592/5175098141</string>
+    <string name="admob_manuel_combination_banner" translatable="false">ca-app-pub-7577324739927592/8078347672</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-7577324739927592~9931457225</string>
 
 
 </resources>

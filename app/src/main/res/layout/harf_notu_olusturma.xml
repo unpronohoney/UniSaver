@@ -75,7 +75,7 @@
                 android:layout_marginBottom="8dp"
                 android:autofillHints=""
                 android:inputType="text"
-                android:fontFamily="@font/roboto"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -104,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autofillHints=""
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/roboto_medium"
                     android:hint="@string/notHint"
                     android:inputType="text"
                     android:textColor="@color/black"
@@ -120,7 +120,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:autofillHints=""
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/roboto_medium"
                     android:hint="@string/puanHint"
                     android:inputType="numberDecimal"
                     android:textColor="@color/black"
@@ -146,7 +146,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="@string/notDizisiInfo"
                     android:textColor="@color/mor"
                     android:textSize="12sp" />

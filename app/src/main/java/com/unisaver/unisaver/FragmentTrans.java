@@ -121,21 +121,21 @@ public class FragmentTrans extends AppCompatActivity {
         Button degerlendir = findViewById(R.id.degerlendirme);
 
         degerlendir.setOnClickListener(v -> {
-            ReviewManager manager = ReviewManagerFactory.create(this);
-            Task<ReviewInfo> request = manager.requestReviewFlow();
-            request.addOnCompleteListener(task -> {
-                if (task.isSuccessful()) {
-                    ReviewInfo reviewInfo = task.getResult();
-                    manager.launchReviewFlow(this, reviewInfo);
-                } else {
-                    // Eğer başarısız olursa burada fallback yapabilirsin (örn. Play Store'a yönlendirme)
-                    Intent intent = new Intent(Intent.ACTION_VIEW,
-                            Uri.parse("https://play.google.com/store/apps/details?id=" + getPackageName()));
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(intent);
-                }
-            });
+            try {
+                // Play Store uygulaması üzerinden aç
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("market://details?id=" + getPackageName()));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            } catch (android.content.ActivityNotFoundException anfe) {
+                // Eğer Play Store yüklü değilse web tarayıcısında aç
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://play.google.com/store/apps/details?id=" + getPackageName()));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            }
         });
+
 
 
     }

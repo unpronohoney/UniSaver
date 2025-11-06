@@ -1,13 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Theme.Unisaver" parent="Theme.Material3.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/mor</item>
-        <item name="android:navigationBarColor">@color/mor</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="colorControlActivated">@color/mor</item>
-        <item name="colorOnSurface">@color/gri</item>
-        <item name="colorOutline">@color/gri</item>
-
+        <item name="colorPrimary">@color/mor</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style>
-
 </resources>
